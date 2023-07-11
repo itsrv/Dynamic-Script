@@ -1,9 +1,9 @@
 # To Have script running on angular component on load 
 
-Useges : 
+Usage : 
 
-Pass the script url to this component it will be created on the component. 
+Pass the script URL to this component it will be created on the component. 
 
 <dynamic-script [Script]="scriptUrl"></dynamic-script> 
 
-// Angular script tags does not work 
+// Angular script tags do not work 
