@@ -1,24 +1,10 @@
-# DynamicScript
+Usage : 
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+Pass the script URL to this component it will be created on the component. 
 
-## Code scaffolding
+<dynamic-script [Script]="scriptUrl"></dynamic-script> 
 
-Run `ng generate component component-name --project dynamic-script` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project dynamic-script`.
-> Note: Don't forget to add `--project dynamic-script` or else it will be added to the default project in your `angular.json` file. 
+// Angular script tags do not work 
 
-## Build
-
-Run `ng build dynamic-script` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build dynamic-script`, go to the dist folder `cd dist/dynamic-script` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test dynamic-script` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Import
+DynamicScriptModule in AppModule / Other Module where you want to use it 
